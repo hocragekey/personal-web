@@ -8,6 +8,7 @@ import travis from './../images/travis.png';
 import { Tabs, Tab } from 'material-ui/Tabs';
 import SwipeableViews from 'react-swipeable-views';
 import RaisedButton from 'material-ui/RaisedButton';
+import Contact from './Contact';
 import './Root.css';
 
 const style = {
@@ -38,15 +39,25 @@ class Root extends Component {
 					<Col xs={12}>
 						<Row end="xs">
 							<Col className="nav-row" xs={12}>
-								<i className="fa fa-github fa-2x" aria-hidden="true" />
-								<i
-									className="fa fa-linkedin fa-2x top-icon-pad"
-									aria-hidden="true"
-								/>
-								<i
-									className="fa fa-angellist fa-2x top-icon-pad"
-									aria-hidden="true"
-								/>
+								<a className="no-recent-a" href="https://github.com/hocragekey">
+									<i className="fa fa-github fa-2x" aria-hidden="true" />
+								</a>
+								<a
+									className="no-recent-a"
+									href="https://www.linkedin.com/in/jimlebonitte/">
+									<i
+										className="fa fa-linkedin fa-2x top-icon-pad"
+										aria-hidden="true"
+									/>
+								</a>
+								<a
+									className="no-recent-a"
+									href="https://angel.co/jim-lebonitte">
+									<i
+										className="fa fa-angellist fa-2x top-icon-pad"
+										aria-hidden="true"
+									/>
+								</a>
 							</Col>
 						</Row>
 						<Row className="image-row" center="xs">
@@ -188,6 +199,7 @@ class Root extends Component {
 
 					<Col xs={1} />
 				</Row>
+				<Contact />
 			</div>
 		);
 	}
