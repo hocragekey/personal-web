@@ -84,9 +84,11 @@ class Root extends Component {
 									Currently I am working as a Full Stack Architect focused on
 									Cloud Architecture (AWS, Azure, Joyent), JavaScript (Angular,
 									React, Nodejs), DevOps (Docker, TravisCI, Jenkins), Mobile
-									(Ionic, React Native) and Big Data (Java, Spark, Hadoop).
-									Please feel free to reach out as I am open to networking and
-									consulting opportunities.
+									(Ionic, React Native) and Big Data (Java, Spark, Hadoop). I
+									just started this website and I am planning on adding a blog
+									all utilizing serverless technologies on AWS! Please feel free
+									to reach out as I am open to networking and consulting
+									opportunities.
 								</h3>
 							</Col>
 							<Col xs={1} />
@@ -98,7 +100,11 @@ class Root extends Component {
 									style={style}
 									onTouchTap={this.viewStore.showContactModal}
 								/>
-								<RaisedButton label="Resume" style={style} />
+								<a
+									href="https://s3.amazonaws.com/aws-website-jimsite-949i8/resume/JimLebonitteResume.docx+(1).pdf"
+									download="lebonitte-resume.pdf">
+									<RaisedButton label="Resume" style={style} />
+								</a>
 							</Col>
 						</Row>
 						<Row center="xs">
@@ -112,9 +118,10 @@ class Root extends Component {
 					<Col xs={12}>
 						<Tabs onChange={this.handleChange} value={this.state.slideIndex}>
 							<Tab label="Cloud Migrations" value={0} />
-							<Tab label="UI / Mobile Architecture" value={1} />
-							<Tab label="DevOps" value={2} />
-							<Tab label="Development" value={3} />
+							<Tab label="Apache Spark / Hadoop" value={1} />
+							<Tab label="UI / Mobile Architecture" value={2} />
+							<Tab label="DevOps / Docker" value={3} />
+							<Tab label="Development" value={4} />
 						</Tabs>
 						<SwipeableViews
 							index={this.state.slideIndex}
@@ -126,9 +133,22 @@ class Root extends Component {
 									these platforms have brought to the technology community is
 									incredible! I have worked on public clouds for over 5 years
 									including companies such as AWS, Azure, Linode, Joyent and
-									Softlayer. I really enjoy taking advantage of the new
-									serverless components of cloud and utilizing Docker when
-									servers are required.
+									Softlayer. New technologies such as serverless and Docker are
+									exciting new technologies that are changing the way people
+									build products.
+								</p>
+							</div>
+							<div className="tab-detail-div">
+								<h2>Apache Spark / Hadoop</h2>
+								<p className="tab-detail-text">
+									I enjoy working on Big Data projects that utilize technologies
+									from the Hadoop ecosystem. I especially enjoy utilizing Apache
+									Spark, Hive, EMR, Mesos, Yarn and Alluxio. I think both YARN
+									and Mesos each have their own use-cases and both should
+									definitely be considered when starting a new big data project.
+									When using containers running Spark on Mesos can be an
+									attractive option to keep the underlying infrastructure /
+									engine the same across your whole environment.
 								</p>
 							</div>
 							<div className="tab-detail-div">
@@ -152,7 +172,7 @@ class Root extends Component {
 								</p>
 							</div>
 							<div className="tab-detail-div">
-								<h2>DevOps</h2>
+								<h2>DevOps / Docker</h2>
 								<p className="tab-detail-text">
 									I think a good DevOps setup is critical for the success of any
 									software development project. I enjoy using PaaS systems such
@@ -169,11 +189,13 @@ class Root extends Component {
 								<h2>Development</h2>
 								<p className="tab-detail-text">
 									I am well versed in quite a few programming languages such as
-									Yorick, C, PHP, etc. I have the most expertise in both the
-									Java and JavaScript technology eco-systems. For Java I really
-									enjoy utilzing Maven, Pivotal/Spring Frameworks (Spring Boot
-									Rocks!), Hadoop, Hazelcast and Spark. For JavaScript I enjoy
-									utilizing npm, Express, Socket IO, SocketStream,
+									Java, JavaScript, Yorick, C, PHP, etc. I have the most
+									expertise in both the Java and JavaScript technology
+									eco-systems. For Java I really enjoy utilzing Maven,
+									Pivotal/Spring Frameworks (Spring Boot Rocks!), Hadoop,
+									Hazelcast and Spark. For JavaScript I enjoy utilizing npm,
+									Express, React, Angular, TypeScript, Socket IO, and
+									SocketStream.
 								</p>
 							</div>
 						</SwipeableViews>

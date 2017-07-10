@@ -3,6 +3,7 @@ import { observer, inject } from 'mobx-react';
 import Dialog from 'material-ui/Dialog';
 import FlatButton from 'material-ui/FlatButton';
 import TextField from 'material-ui/TextField';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 @inject('viewStore')
 @observer
@@ -33,6 +34,10 @@ class Contact extends Component {
 				open={this.viewStore.vState.contactModalVisible}
 				onRequestClose={this.viewStore.hideContactModal}
 				autoScrollBodyContent={true}>
+				<p>
+					Please feel free to drop me a line and I will get back to you as soon
+					as possible!
+				</p>
 				<TextField
 					hintText="John Doe"
 					floatingLabelText="Name"
@@ -54,6 +59,10 @@ class Contact extends Component {
 					style={{ width: '90%' }}
 				/>
 				<br />
+				<ReCAPTCHA
+					ref="recaptcha"
+					sitekey="6LfLcigUAAAAAMWBtH73VfTBbHYl7iMscTYxqdVg"
+				/>
 			</Dialog>
 		);
 	}
