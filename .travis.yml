@@ -9,8 +9,7 @@ deploy:
     secure: E3k2m1Ll/ovjIRMfTbXXKXiDUMcaNrJDlRm3uL0rtbzD0d7vN0/SeAJsRyhDfGSY7wIMru914pZdzD+2yBIYctHDz+w8OVFZKO906Pi2R+4C5f+TNY+ez2rrDyOftWvjUB0UNFT6LZ0yGMZOT6vxXNOiSBqQv5cMO55hC/dgz77HsWxQtr8Py9EbVGY/H5cIoz71D22K822WCzd+VCKHVAqxsDcXnb4v8N3Jig5HhYqoLqQOJGRjKDECmQDSAnGCC4yiGiOFb7kJgsSipsSWdheIvy6jfuoUUb8ZxWqEPdzjKR1torkrIvva7So+UuVHADkickh5l6/gUg888D9dAK5CTJwlg25siXuVy6mqFmxhidr6+5zZVmQOLyb5kAZwQ4A47zRDAUVVLrS6xUr66bMYcskAncufg6Xd5EmbxTU+1kNILy4jCx3bBCC82XwCtlishxuPlMG4SQhgeHGhRoETj1y5hQpEFAh0INwsqiRMZGRi5NwEMfxDIZqum7pK11HPzXaU9D7fVQfKePftv8Oq3Dfn1/ySWsezc0MSQasX/2rBiy/EQn+0j4tt1fC1jpcpZuQ5IdIvS9SBVjIOxmGSP2MduycBn2+AEZ8ydtwzKYPeNC2tvMDTUhxn6YqBjbYQOVKrvZe0Tg9A3GXeFToZcVkSQHCfRh/IXg6/VDU=
   bucket: aws-website-jimsite-949i8
   local-dir: build
-  upload-dir: aws-website-jimsite-949i8
-  skip_cleanup: true 
+  skip_cleanup: true
   acl: public_read
   on:
     repo: hocragekey/personal-web
