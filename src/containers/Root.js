@@ -14,6 +14,10 @@ const style = {
 	margin: 12
 };
 
+const footerStyle = {
+	paddingBottom: '200px'
+};
+
 @inject('viewStore')
 @observer
 class Root extends Component {
@@ -117,7 +121,7 @@ class Root extends Component {
 						</h2>
 					</Col>
 				</Row>
-				<Row center="xs" className="grey-bg">
+				<Row center="xs" className="grey-bg" style={footerStyle}>
 					<Col xs={1} />
 					<Col xs={10}>
 						<img src={aws} alt="Amazon Web Services" />
