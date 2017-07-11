@@ -6,6 +6,7 @@ class ViewState {
 	constructor() {
 		let vState = {};
 		vState.contactModalVisible = false;
+		vState.homeSlideIdx = 0;
 		this.vState = vState;
 	}
 
@@ -17,6 +18,11 @@ class ViewState {
 	@action
 	hideContactModal = value => {
 		this.vState.contactModalVisible = false;
+	};
+
+	@action
+	handleSlideChange = value => {
+		this.vState.homeSlideIdx = value;
 	};
 }
 
