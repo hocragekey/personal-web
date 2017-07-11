@@ -76,9 +76,9 @@ class Root extends Component {
 									React, Nodejs), DevOps (Docker, TravisCI, Jenkins), Mobile
 									(Ionic, React Native) and Big Data (Java, Spark, Hadoop). I
 									just started this website and I am planning on adding a blog
-									all utilizing serverless technologies on AWS! Please feel free
-									to reach out as I am open to networking and consulting
-									opportunities.
+									along with more content so please bear with me as I work on
+									this in my spare time! Please feel free to reach out as I am
+									open to networking and consulting opportunities.
 								</h3>
 							</Col>
 							<Col xs={1} />
@@ -91,7 +91,7 @@ class Root extends Component {
 									onTouchTap={this.viewStore.showContactModal}
 								/>
 								<a
-									href="https://s3.amazonaws.com/aws-website-jimsite-949i8/resume/JimLebonitteResume.docx+(1).pdf"
+									href="https://s3.amazonaws.com/aws-website-jimsite-949i8/resume/JimLebonitteResume.docx%2B(1).pdf"
 									download="lebonitte-resume.pdf">
 									<RaisedButton label="Resume" style={style} />
 								</a>
