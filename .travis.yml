@@ -9,6 +9,6 @@ env:
   - secure: qmM4BQ4xKvoz3PyirFAW9V7l9+O6hoHn43XrTM8z58xfiMaoPXdXvXMztFlRM1+vxkWgjUc1yjIm5UEnCj1zm5sJphTAkFMawJwSPzVzsRKmFvBq6mAejmODVgyCcWtFGNA8vePdU2sD/EQxfGWQ2PXy8+WFWyELl88PWkKWwpysq50jSJJsCRWXzHcsT/c1QNWDHGaP5WCSR/0p+oj6KHGbf7dk65+NyxINjlpNttTMrADeOVnWj6u7Sl//VdTJXjSK7LCBrBvQHyepsH4Ya8k7np2i7a9xQU4dDh1OSv7M/iNMCJ4WWmX4xZsnw77BUY/g5ivxrnt1sh+wAVsQwe11atkGJjOKscfzX1Vk+CTcnLyYIs8ARzhmKUPelyAYHX7KvFb5yxfQvnXENQ3Z/8PUHbWyohz6Vc1dB0xl52KjewTDLKvZ5bQAG5V96HWgZxIGpt5bkFuxR6SvQ9SN9hNnk9laXCrApGXDE7gUkeRUgSP/GsidxTU7pU2HEtdd/1+UvFLGeeeivHxP7/6QexyFPaI/4mPLBRV5DWJ659E1fWeDvUeY8LOJr8czCMjPM/LVoI8I18LZjSrZn6RxFRIoCEjnXSu0sVpOMI2oAq2zIkFN5AF0rXEHEaqii8LmUtvC+XFlSDkGc4RDDlG29TdJxrquLnA3n+OhfgHj/UA=
 deploy:
   provider: s3
-  access_key_id: $AWS_ACCESS
-  secret_access_key: $AWS_SECRET
-  bucket: $AWS_WEB_S3
+  access_key_id: "$AWS_ACCESS"
+  secret_access_key: "$AWS_SECRET"
+  bucket: "$AWS_WEB_S3"
