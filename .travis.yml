@@ -10,6 +10,6 @@ deploy:
   bucket: aws-website-jimsite-949i8
   local-dir: build
   upload-dir: aws-website-jimsite-949i8
-  acl: ''
+  acl: public_read
   on:
     repo: hocragekey/personal-web
