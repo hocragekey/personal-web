@@ -2,6 +2,6 @@ This project was created with create-react-app, react, mobx, es7 decorators, mob
 
 Build status
 
-https://travis-ci.org/hocragekey/personal-web.svg?branch=master
+[![Build Status](https://travis-ci.org/hocragekey/personal-web.svg?branch=master)](https://travis-ci.org/hocragekey/personal-web)
 
 To run the project in development mode you can type npm start.
