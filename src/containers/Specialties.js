@@ -72,7 +72,7 @@ class Specialties extends Component {
 							I think a good DevOps setup is critical for the success of any
 							software development project. I enjoy using PaaS systems such as
 							TravisCI and CircleCI. I also have experience setting up and
-							maintainting Jenkins environments for internal enterprise
+							maintaining Jenkins environments for internal enterprise
 							environments. Containers are also really taking off and I really
 							enjoy utilizing Docker across a variety of Orchestration platforms
 							such as Docker Engine, Kubernetes, and Mesos depending on the use
